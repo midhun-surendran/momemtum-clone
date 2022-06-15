@@ -20,7 +20,7 @@ const Time = () => {
       <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-extrabold text-3xl lg:text-7xl flex justify-center items-center">
         <Moment format="LT"></Moment>
       </p>
-      <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-extrabold  text-3xl lg:text-7xl flex justify-center items-center">
+      <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-extrabold  text-3xl lg:text-7xl flex justify-center items-center pb-10">
         {Greetings()}
       </p>
     </div>
