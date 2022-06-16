@@ -4,12 +4,12 @@ import "moment-timezone";
 const Time = () => {
   let today = new Date();
   let Greetings = () => {
-    if (today.getHours() >= 5 && today.getHours() < 11) {
-      return "Good Morning , Midhun";
-    } else if (today.getHours() >= 11 && today.getHours() < 17) {
-      return "Good Afternoon , Midhun";
+    if (today.getHours() >= 5 && today.getHours() < 12) {
+      return "Good Morning....";
+    } else if (today.getHours() >= 12 && today.getHours() < 17) {
+      return "Good Afternoon....";
     } else if (today.getHours() >= 17 && today.getHours() < 24) {
-      return "Good evening , Midhun";
+      return "Good evening...";
     } else {
       return "what are you upto at this time";
     }
